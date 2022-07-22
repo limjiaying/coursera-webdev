@@ -14,12 +14,33 @@ body {
     color: #000;
 }
 
-#nav-list hr {
-    margin: 0;
+button.navbar-toggle,
+.icon-bar {
+    border: 1px solid black;
 }
 
 #nav-list li {
     text-align: center;
     font-size: 1.1em;
     color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#page-title {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: lightgray;
+    margin: 0 auto 15px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.3em;
+    font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
