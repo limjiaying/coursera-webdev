@@ -14,17 +14,25 @@ body {
     color: #000;
 }
 
-button.navbar-toggle,
-.icon-bar {
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
     border: 1px solid black;
 }
 
-#nav-list li {
+#nav-list a {
     text-align: center;
     font-size: 1.1em;
     color: white;
+}
+
+#nav-list li hr {
     margin: 0;
-    padding: 0;
+    width: 100%;
+}
+
+#nav-list a:hover {
+    color: black;
+    background-color: white;
 }
 
 #page-title {
@@ -34,7 +42,8 @@ button.navbar-toggle,
 
 section {
     background-color: lightgray;
-    margin: 0 auto 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .section-title {
@@ -43,4 +52,5 @@ section {
     font-style: bold;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
